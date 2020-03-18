@@ -1,0 +1,25 @@
+.cart-list {
+  margin: 64px 0px;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+}
+
+.cart-item > * {
+  margin-right: 32px;
+}
+
+.cart-item > a > img {
+  max-height: 320px;
+}
+
+.quantity-control {
+  display: flex;
+  align-items: center;
+}
+
+.quantity-control > :first-child {
+  padding-right: 16px;
+}

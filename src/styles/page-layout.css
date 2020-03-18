@@ -1,0 +1,21 @@
+body {
+  font-family: "Spartan", sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1024px;
+  margin: auto;
+  position: relative;
+}
+
+.cart-indicator > a {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  right: 0;
+}
+
+.cart-indicator > a > * {
+  margin: 0px 12px;
+}
